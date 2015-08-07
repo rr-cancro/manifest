@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Modified AOSP  repos  :D  -->
+<remove-project name="arter97/android_frameworks_webview" />
+<project path="frameworks/webview" name="Omni-Cancro/android_frameworks_webview" remote="github" revision="cm-12.1" />
+
+<!--  Qcom Part  -->
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1"/>
+
+<!--  Cancro Things  -->
+<project name="rr-cancro/android_device_xiaomi_cancro" path="device/xiaomi/cancro" remote="github" revision="cm-12.1"/>
+<project name="rr-cancro/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1"/>
+<project name"CyanogenMod/android_device_qcom_sepolicy" path"=device/qcom/sepolicy" revision="cm-12.1" />
+<!-- Stuxnet+ kernel for Cancro -->
+<project name="CyanogenMod/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="github" revision="cm-12.1" />
+
+<!-- Needed CM repo for FM Radio App -->
+<project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1"/>
+
+<!--  OpenDelta  -->
+<project name="rr-cancro/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="cm-12.0"/>
+
+<remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
+<project name="rr-cancro/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop5.1"/>
+
+</manifest>
+
