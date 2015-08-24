@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Modified AOSP  repos  :D  -->
-<remove-project name="arter97/android_frameworks_webview" />
+<remove-project name="ResurrectionRemix/android_frameworks_webview" />
 <project path="frameworks/webview" name="Omni-Cancro/android_frameworks_webview" remote="github" revision="cm-12.1" />
 <remove-project name="ResurrectionRemix/android_frameworks_base" />
 <project path="frameworks/base" name="rr-cancro/android_frameworks_base" remote="github" revision="lollipop5.1" />
@@ -13,7 +13,7 @@
 <!--  Cancro Things  -->
 <project name="rr-cancro/android_device_xiaomi_cancro" path="device/xiaomi/cancro" remote="github" revision="cm-12.1"/>
 <project name="rr-cancro/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1"/>
-<project name"CyanogenMod/android_device_qcom_sepolicy" path"=device/qcom/sepolicy" revision="cm-12.1" />
+
 <!-- Stuxnet+ kernel for Cancro -->
 <project name="CyanogenMod/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="github" revision="cm-12.1" />
 
@@ -27,4 +27,3 @@
 <project name="rr-cancro/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop5.1"/>
 
 </manifest>
-
