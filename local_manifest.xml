@@ -14,8 +14,8 @@
 <project name="rr-cancro/android_device_xiaomi_cancro" path="device/xiaomi/cancro" remote="github" revision="cm-12.1"/>
 <project name="rr-cancro/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1"/>
 
-<!-- Stuxnet+ kernel for Cancro -->
-<project name="CyanogenMod/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="github" revision="cm-12.1" />
+<!-- Stuxnet Reborn  for Cancro -->
+<project name="vasishath/kernel_cancro" path="kernel/xiaomi/cancro" remote="github" revision="cm-12.1" />
 
 <!-- Needed CM repo for FM Radio App -->
 <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1"/>
