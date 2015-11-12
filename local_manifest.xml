@@ -15,7 +15,7 @@
 <project name="rr-cancro/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1"/>
 
 <!-- Stuxnet Reborn  for Cancro -->
-<project name="vasishath/kernel_cancro" path="kernel/xiaomi/cancro" remote="github" revision="cm-12.1" />
+<project name="Shahanmik3/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="github" revision="eos-kernel3" />
 
 <!-- Needed CM repo for FM Radio App -->
 <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1"/>
@@ -23,8 +23,7 @@
 <!--  OpenDelta  -->
 <project name="rr-cancro/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="cm-12.0"/>
 
-<remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
-<project name="rr-cancro/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop5.1"/>
+
 <!-- GCC 5.1 -->
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-linaro" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
