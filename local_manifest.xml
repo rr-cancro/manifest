@@ -13,15 +13,12 @@
 <!--  Cancro Things  -->
 <project name="rr-cancro/android_device_xiaomi_cancro" path="device/xiaomi/cancro" remote="github" revision="cm-12.1"/>
 <project name="rr-cancro/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1"/>
-
-<!-- Stuxnet Reborn  for Cancro -->
 <project name="Shahanmik3/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="github" revision="eos-kernel3" />
 
 <!-- Needed CM repo for FM Radio App -->
 <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1"/>
 
-<!--  OpenDelta  -->
-<project name="rr-cancro/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="cm-12.0"/>
+
 
 
 <!-- GCC 6.0 -->
