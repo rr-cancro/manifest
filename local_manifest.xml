@@ -24,7 +24,7 @@
 <project name="rr-cancro/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="cm-12.0"/>
 
 
-<!-- GCC 5.1 -->
-<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-linaro" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" />
+<!-- GCC 6.0 -->
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-linaro" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
 </manifest>
